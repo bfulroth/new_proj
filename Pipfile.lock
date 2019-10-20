@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "43e520bf614d84edcaee55d3f58fd258848217e5247714a8eb119b4616ef36fb"
+            "sha256": "c60f80ed14c9598c2a6283cfa36d7a1747a3735de5d16bdba2155f109d713fff"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -49,7 +49,6 @@
         "csci-utils": {
             "editable": true,
             "git": "https://github.com/csci-e-29/2019fa-csci-utils-bfulroth",
-            "markers": "sys_platform == 'win32'",
             "ref": "cb1f506c95f6f76ad8cab14316f302cbd168c428"
         },
         "docutils": {
