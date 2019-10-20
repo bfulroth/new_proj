@@ -8,7 +8,7 @@ pytest = "*"
 pytest-cov = "*"
 
 [packages]
-#csci-utils = {editable = true,git = "https://github.com/csci-e-29/2019fa-csci-utils-bfulroth"}
+csci-utils = {editable = true,git = "https://github.com/csci-e-29/2019fa-csci-utils-bfulroth"}
 awscli = "*"
 pandas = "*"
 xlrd = "*"
