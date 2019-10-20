@@ -9,10 +9,6 @@ import os
 from new_proj.hash_str import hash_str
 from new_proj.io import atomic_write
 
-class Tests(TestCase):
-    def test_fake_test(self):
-        pass
-
 class FakeFileFailure(IOError):
     pass
 
