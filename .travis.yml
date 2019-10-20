@@ -23,3 +23,6 @@ jobs:
     after_script:
     - "./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT"
   - stage: answers
+env:
+  global:
+    secure: YyKE8ILGHGxD2Fbq0MWrVM3+BvIHu96mQM2YFCDzOqjVEZXIP5zR9FUmbDjBHnt67NM5iWJ/ByNhjpiOd3tYEpc0mS6l+/dsiBXqyqMKPBZtGehIlWOBo+IU7+ArEcyZTMd3e3NUjas1zSIjDfjXZus20ZaHct8KX1MmJ6oQd+e/a1kcuTlMebcK8MuD5tuWBbTUyYa96Sz352Iz2Abrz8OpB6oV8RS2fQYsbDt07umewZ4ansswMaa2sep0akOvkMlYu4VskLrmAHxW3N3S7lLHWusHPhxakufwfBTNDYBt330/592uvk2oafqwxwXUZGb45mk+7CPUgUTAHOCYKlUaT2kfzjDBszyPq/N8imoTyNbTf1Qj5Ai3tz7Mc0DjCDTGCHsGjy/+Fx+JxOc71KEk7ecz9g0B86/8FUbd0h1K+tQQd2r3D1tWQFbEsuHYtCXDOz+DEc3HvSXaf5mosoXOCY/RfwAepXd3AbWZapKUcgg3fZrJbnd4x9lHqfYg0Qr06cUrTGMz604rxLI+emKr5IlcnjFufXqPWm8BGPerZ0Fecz7Ha4I0OmFzblKacZ9YAL8ZwZGNiwzK9yk7F6nKmxCKz6vlo7RKQq5tyRcdeOwfRM+z23/QPN3+fQKX/hts5/2uIttYBQRlYBQ9HrZVMsCmRvaneIczDfjE3cI=
